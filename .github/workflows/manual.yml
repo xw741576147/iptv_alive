@@ -1,0 +1,50 @@
+name: Sync Fork and Merge Custom Content
+
+on:
+  schedule:
+    # 每天UTC时间21:00运行，这相当于北京时间凌晨5:00 (UTC+8)
+    - cron: '0 21 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  sync-and-merge:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout your fork
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Configure Git
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+
+    - name: Add upstream remote
+      run: git remote add upstream https://github.com/zwc456baby/iptv_alive.git
+
+    - name: Fetch upstream changes
+      run: git fetch upstream
+
+    - name: Merge upstream changes
+      run: |
+        git merge upstream/main --allow-unrelated-histories -X theirs
+        
+    - name: Merge live.txt and live_custom.txt
+      run: |
+        if [ -f live.txt ] && [ -f live_custom.txt ]; then
+          cat live.txt live_custom.txt | sort | uniq > live_all.txt
+        elif [ -f live.txt ]; then
+          cp live.txt live_all.txt
+        elif [ -f live_custom.txt ]; then
+          cp live_custom.txt live_all.txt
+        else
+          echo "Neither live.txt nor live_custom.txt found."
+          exit 1
+        fi
+
+    - name: Commit and push changes
+      run: |
+        git add live_all.txt
+        git commit -m "Sync with upstream and merge custom content" || echo "No changes to commit"
+        git push origin main
