@@ -56,7 +56,11 @@ jobs:
     - name: Merge live.txt and live_custom.txt
       run: |
         if [ -f live.txt ] && [ -f live_custom.txt ]; then
-          cat live.txt live_custom.txt | sort | uniq > live_all.txt
+          # 将live.txt的内容复制到live_all.txt
+          cat live.txt > live_all.txt
+          
+          # 将live_custom.txt中不在live.txt中的行追加到live_all.txt
+          grep -vxFf live.txt live_custom.txt >> live_all.txt
         elif [ -f live.txt ]; then
           cp live.txt live_all.txt
         elif [ -f live_custom.txt ]; then
