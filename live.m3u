@@ -24,8 +24,8 @@ http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 #EXTINF:-1 tvg-name=武义新闻综合 tvg-logo=https://live.fanmingming.com/tv/武义新闻综合.png group-title=小地方,武义新闻综合
 http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=平湖民生休闲 tvg-logo=https://live.fanmingming.com/tv/平湖民生休闲.png group-title=小地方,平湖民生休闲
-http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed
+#EXTINF:-1 tvg-name=平湖新闻综合 tvg-logo=https://live.fanmingming.com/tv/平湖新闻综合.png group-title=小地方,平湖新闻综合
+http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=萧山新闻综合 tvg-logo=https://live.fanmingming.com/tv/萧山新闻综合.png group-title=小地方,萧山新闻综合
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=萧山生活频道 tvg-logo=https://live.fanmingming.com/tv/萧山生活频道.png group-title=小地方,萧山生活频道
@@ -36,18 +36,12 @@ http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
 http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=余姚新闻综合 tvg-logo=https://live.fanmingming.com/tv/余姚新闻综合.png group-title=小地方,余姚新闻综合
 http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=余姚姚江文化 tvg-logo=https://live.fanmingming.com/tv/余姚姚江文化.png group-title=小地方,余姚姚江文化
-http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=嵊州新闻综合 tvg-logo=https://live.fanmingming.com/tv/嵊州新闻综合.png group-title=小地方,嵊州新闻综合
 http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=诸暨新闻综合 tvg-logo=https://live.fanmingming.com/tv/诸暨新闻综合.png group-title=小地方,诸暨新闻综合
 http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=上虞新闻综合 tvg-logo=https://live.fanmingming.com/tv/上虞新闻综合.png group-title=小地方,上虞新闻综合
 http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=上虞文化影院 tvg-logo=https://live.fanmingming.com/tv/上虞文化影院.png group-title=小地方,上虞文化影院
-http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=上虞新商都 tvg-logo=https://live.fanmingming.com/tv/上虞新商都.png group-title=小地方,上虞新商都
-http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=兰溪新闻综合 tvg-logo=https://live.fanmingming.com/tv/兰溪新闻综合.png group-title=小地方,兰溪新闻综合
 http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=CCTV1 tvg-logo=https://live.fanmingming.com/tv/CCTV1.png group-title=IPV6,CCTV-1 综合
@@ -246,12 +240,8 @@ http://cfss.cc/cdn/hy/11602058.flv
 http://cfss.cc/cdn/hy/11601968.flv
 #EXTINF:-1 tvg-name=电影_黄渤 tvg-logo=https://live.fanmingming.com/tv/电影_黄渤.png group-title=轮播,电影_黄渤
 http://cfss.cc/cdn/hy/11352876.flv
-#EXTINF:-1 tvg-name=电影_强森 tvg-logo=https://live.fanmingming.com/tv/电影_强森.png group-title=轮播,电影_强森
-http://cfss.cc/cdn/hy/21059581.flv
 #EXTINF:-1 tvg-name=电影_漫威 tvg-logo=https://live.fanmingming.com/tv/电影_漫威.png group-title=轮播,电影_漫威
 http://cfss.cc/cdn/hy/11602034.flv
-#EXTINF:-1 tvg-name=电影_宇宙 tvg-logo=https://live.fanmingming.com/tv/电影_宇宙.png group-title=轮播,电影_宇宙
-http://cfss.cc/cdn/hy/11342428.flv
 #EXTINF:-1 tvg-name=电影_怪兽 tvg-logo=https://live.fanmingming.com/tv/电影_怪兽.png group-title=轮播,电影_怪兽
 http://cfss.cc/cdn/hy/21059577.flv
 #EXTINF:-1 tvg-name=电影_贺岁 tvg-logo=https://live.fanmingming.com/tv/电影_贺岁.png group-title=轮播,电影_贺岁
@@ -302,8 +292,6 @@ http://cfss.cc/cdn/hy/21059574.flv
 http://cfss.cc/cdn/hy/11352974.flv
 #EXTINF:-1 tvg-name=电影_古装片 tvg-logo=https://live.fanmingming.com/tv/电影_古装片.png group-title=轮播,电影_古装片
 http://cfss.cc/cdn/hy/11336590.flv
-#EXTINF:-1 tvg-name=电影_高分动作 tvg-logo=https://live.fanmingming.com/tv/电影_高分动作.png group-title=轮播,电影_高分动作
-http://cfss.cc/cdn/hy/11352884.flv
 #EXTINF:-1 tvg-name=电影_动作电影 tvg-logo=https://live.fanmingming.com/tv/电影_动作电影.png group-title=轮播,电影_动作电影
 http://cfss.cc/cdn/hy/11602077.flv
 #EXTINF:-1 tvg-name=电影_搞笑喜剧 tvg-logo=https://live.fanmingming.com/tv/电影_搞笑喜剧.png group-title=轮播,电影_搞笑喜剧
@@ -314,8 +302,6 @@ http://cfss.cc/cdn/hy/11602044.flv
 http://cfss.cc/cdn/hy/11352894.flv
 #EXTINF:-1 tvg-name=电影_不挤影院 tvg-logo=https://live.fanmingming.com/tv/电影_不挤影院.png group-title=轮播,电影_不挤影院
 http://cfss.cc/cdn/hy/11352897.flv
-#EXTINF:-1 tvg-name=电影_国产悬疑 tvg-logo=https://live.fanmingming.com/tv/电影_国产悬疑.png group-title=轮播,电影_国产悬疑
-http://cfss.cc/cdn/hy/11342395.flv
 #EXTINF:-1 tvg-name=电影_快意江湖 tvg-logo=https://live.fanmingming.com/tv/电影_快意江湖.png group-title=轮播,电影_快意江湖
 http://cfss.cc/cdn/hy/11342435.flv
 #EXTINF:-1 tvg-name=电影_黑帮斗争 tvg-logo=https://live.fanmingming.com/tv/电影_黑帮斗争.png group-title=轮播,电影_黑帮斗争
@@ -460,6 +446,8 @@ https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
 http://[2409:8087:1a0a:df::4039]/wh7f454c46tw2710545171_1093384597/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226433/index.m3u8?icpid=88888888&RTS=1713110546&from=4&hms_devid=1212&online=1713110546&vqe=3
 #EXTINF:-1 tvg-name=延边卫视 tvg-logo=https://live.fanmingming.com/tv/延边卫视.png group-title=卫视频道,延边卫视
 http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8
+#EXTINF:-1 tvg-name=香港卫视 tvg-logo=https://live.fanmingming.com/tv/香港卫视.png group-title=卫视频道,香港卫视
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 tvg-name=亚洲卫视 tvg-logo=https://live.fanmingming.com/tv/亚洲卫视.png group-title=卫视频道,亚洲卫视
 http://play-hsbj.vzan.com/slowlive/821481626725612417/live.m3u8
 #EXTINF:-1 tvg-name=凤凰中文 tvg-logo=https://live.fanmingming.com/tv/凤凰中文.png group-title=港澳台,凤凰中文
@@ -474,16 +462,10 @@ http://php.jdshipin.com:8880/smt.php?id=pearl_twn
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8?$官源
 #EXTINF:-1 tvg-name=VIUTV tvg-logo=https://live.fanmingming.com/tv/VIUTV.png group-title=港澳台,VIUTV
 http://php.jdshipin.com:8880/smt.php?id=viu1_twn
-#EXTINF:-1 tvg-name=无线新闻 tvg-logo=https://live.fanmingming.com/tv/无线新闻.png group-title=港澳台,无线新闻
-http://php.jdshipin.com:8880/smt.php?id=inews_twn
 #EXTINF:-1 tvg-name=澳门Macau tvg-logo=https://live.fanmingming.com/tv/澳门Macau.png group-title=港澳台,澳门Macau
 http://grandprix2023.asuscomm.com:8891/bysid/96.m3u8
 #EXTINF:-1 tvg-name=澳视澳门 tvg-logo=https://live.fanmingming.com/tv/澳视澳门.png group-title=港澳台,澳视澳门
 http://grandprix2023.asuscomm.com:8891/bysid/91.m3u8
-#EXTINF:-1 tvg-name=TVB星河 tvg-logo=https://live.fanmingming.com/tv/TVB星河.png group-title=港澳台,TVB星河
-https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/chunklist.m3u8
-#EXTINF:-1 tvg-name=亚洲武侠 tvg-logo=https://live.fanmingming.com/tv/亚洲武侠.png group-title=港澳台,亚洲武侠
-http://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3u8
 #EXTINF:-1 tvg-name=aHa tvg-logo=https://live.fanmingming.com/tv/aHa.png group-title=港澳台,aHa
 http://61.221.215.25:8800/hls/50/index.m3u8
 #EXTINF:-1 tvg-name=TVBSNEWS tvg-logo=https://live.fanmingming.com/tv/TVBSNEWS.png group-title=港澳台,TVBSNEWS
@@ -1234,16 +1216,12 @@ http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
 http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 #EXTINF:-1 tvg-name=数码时代 tvg-logo=https://live.fanmingming.com/tv/数码时代.png group-title=小地方,数码时代
 http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-name=武义新闻综合 tvg-logo=https://live.fanmingming.com/tv/武义新闻综合.png group-title=小地方,武义新闻综合
-http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=平湖新闻综合 tvg-logo=https://live.fanmingming.com/tv/平湖新闻综合.png group-title=小地方,平湖新闻综合
 http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=萧山生活频道 tvg-logo=https://live.fanmingming.com/tv/萧山生活频道.png group-title=小地方,萧山生活频道
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=余杭综合频道 tvg-logo=https://live.fanmingming.com/tv/余杭综合频道.png group-title=小地方,余杭综合频道
 http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=余杭未来E频道 tvg-logo=https://live.fanmingming.com/tv/余杭未来E频道.png group-title=小地方,余杭未来E频道
-http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=余姚新闻综合 tvg-logo=https://live.fanmingming.com/tv/余姚新闻综合.png group-title=小地方,余姚新闻综合
 http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=余姚姚江文化 tvg-logo=https://live.fanmingming.com/tv/余姚姚江文化.png group-title=小地方,余姚姚江文化
@@ -1256,8 +1234,6 @@ http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed
 http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=上虞文化影院 tvg-logo=https://live.fanmingming.com/tv/上虞文化影院.png group-title=小地方,上虞文化影院
 http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=上虞新商都 tvg-logo=https://live.fanmingming.com/tv/上虞新商都.png group-title=小地方,上虞新商都
-http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=兰溪新闻综合 tvg-logo=https://live.fanmingming.com/tv/兰溪新闻综合.png group-title=小地方,兰溪新闻综合
 http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name=CGTN记录 tvg-logo=https://live.fanmingming.com/tv/CGTN记录.png group-title=CCTV,CGTN记录
@@ -1338,8 +1314,6 @@ http://cfss.cc/cdn/hy/11602075.flv
 http://cfss.cc/cdn/hy/21059587.flv
 #EXTINF:-1 tvg-name=电影_战争片 tvg-logo=https://live.fanmingming.com/tv/电影_战争片.png group-title=轮播,电影_战争片
 http://cfss.cc/cdn/hy/21059574.flv
-#EXTINF:-1 tvg-name=电影_犯罪片 tvg-logo=https://live.fanmingming.com/tv/电影_犯罪片.png group-title=轮播,电影_犯罪片
-http://cfss.cc/cdn/hy/11352974.flv
 #EXTINF:-1 tvg-name=电影_古装片 tvg-logo=https://live.fanmingming.com/tv/电影_古装片.png group-title=轮播,电影_古装片
 http://cfss.cc/cdn/hy/11336590.flv
 #EXTINF:-1 tvg-name=电影_高分动作 tvg-logo=https://live.fanmingming.com/tv/电影_高分动作.png group-title=轮播,电影_高分动作
@@ -1400,8 +1374,6 @@ https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
 http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8
 #EXTINF:-1 tvg-name=亚洲卫视 tvg-logo=https://live.fanmingming.com/tv/亚洲卫视.png group-title=卫视频道,亚洲卫视
 http://play-hsbj.vzan.com/slowlive/821481626725612417/live.m3u8
-#EXTINF:-1 tvg-name=亚洲武侠 tvg-logo=https://live.fanmingming.com/tv/亚洲武侠.png group-title=港澳台,亚洲武侠
-http://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3u8
 #EXTINF:-1 tvg-name=东森超视 tvg-logo=https://live.fanmingming.com/tv/东森超视.png group-title=港澳台,东森超视
 rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1 tvg-name=非凡新闻 tvg-logo=https://live.fanmingming.com/tv/非凡新闻.png group-title=港澳台,非凡新闻
@@ -1469,8 +1441,6 @@ http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1 tvg-name=澳门莲花 tvg-logo=https://live.fanmingming.com/tv/澳门莲花.png group-title=世界,澳门莲花
 http://anren.live/HK/BiIOU11uLA.m3u8
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF:-1 tvg-name=有线新闻台 tvg-logo=https://live.fanmingming.com/tv/有线新闻台.png group-title=世界,有线新闻台
-http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u8
 #EXTINF:-1 tvg-name=耀才财经新闻 tvg-logo=https://live.fanmingming.com/tv/耀才财经新闻.png group-title=世界,耀才财经新闻
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000?zgangd
 #EXTINF:-1 tvg-name=台视新闻 tvg-logo=https://live.fanmingming.com/tv/台视新闻.png group-title=世界,台视新闻
@@ -1769,8 +1739,6 @@ http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
 #EXTINF:-1 tvg-name=浙江松阳 tvg-logo=https://live.fanmingming.com/tv/浙江松阳.png group-title=地方,浙江松阳
 http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
-#EXTINF:-1 tvg-name=浙江遂昌 tvg-logo=https://live.fanmingming.com/tv/浙江遂昌.png group-title=地方,浙江遂昌
-http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8
 #EXTINF:-1 tvg-name=成龙 tvg-logo=https://live.fanmingming.com/tv/成龙.png group-title=电影,成龙
 http://zby.xjqxz.top/cldy/live.m3u8
 #EXTINF:-1 tvg-name=周星驰 tvg-logo=https://live.fanmingming.com/tv/周星驰.png group-title=电影,周星驰
