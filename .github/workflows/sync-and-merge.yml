@@ -26,11 +26,17 @@ jobs:
     - name: Fetch upstream changes
       run: |
         git fetch upstream
+        git fetch origin
         git branch -a
+
+    - name: Determine current branch
+      run: |
+        CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+        echo "Current branch is $CURRENT_BRANCH"
+        echo "CURRENT_BRANCH=$CURRENT_BRANCH" >> $GITHUB_ENV
 
     - name: Sync with upstream
       run: |
-        # 尝试找到正确的上游分支
         UPSTREAM_BRANCH=$(git branch -r | grep upstream/main || git branch -r | grep upstream/master)
         if [ -z "$UPSTREAM_BRANCH" ]; then
           echo "Could not find upstream/main or upstream/master branch"
@@ -40,7 +46,6 @@ jobs:
         UPSTREAM_BRANCH=${UPSTREAM_BRANCH##*/}
         echo "Upstream branch is $UPSTREAM_BRANCH"
         
-        # 尝试合并上游更改
         if git merge upstream/$UPSTREAM_BRANCH --allow-unrelated-histories -X theirs; then
           echo "Merged successfully"
         else
@@ -65,4 +70,4 @@ jobs:
       run: |
         git add live_all.txt
         git commit -m "Sync with upstream and merge custom content" || echo "No changes to commit"
-        git push origin main
+        git push origin ${{ env.CURRENT_BRANCH }}
