@@ -24,12 +24,30 @@ jobs:
       run: git remote add upstream https://github.com/zwc456baby/iptv_alive.git
 
     - name: Fetch upstream changes
-      run: git fetch upstream
-
-    - name: Merge upstream changes
       run: |
-        git merge upstream/main --allow-unrelated-histories -X theirs
+        git fetch upstream
+        git branch -a
+
+    - name: Sync with upstream
+      run: |
+        # 尝试找到正确的上游分支
+        UPSTREAM_BRANCH=$(git branch -r | grep upstream/main || git branch -r | grep upstream/master)
+        if [ -z "$UPSTREAM_BRANCH" ]; then
+          echo "Could not find upstream/main or upstream/master branch"
+          git branch -r
+          exit 1
+        fi
+        UPSTREAM_BRANCH=${UPSTREAM_BRANCH##*/}
+        echo "Upstream branch is $UPSTREAM_BRANCH"
         
+        # 尝试合并上游更改
+        if git merge upstream/$UPSTREAM_BRANCH --allow-unrelated-histories -X theirs; then
+          echo "Merged successfully"
+        else
+          echo "Merge failed, trying to pull instead"
+          git pull upstream $UPSTREAM_BRANCH --allow-unrelated-histories -X theirs
+        fi
+
     - name: Merge live.txt and live_custom.txt
       run: |
         if [ -f live.txt ] && [ -f live_custom.txt ]; then
