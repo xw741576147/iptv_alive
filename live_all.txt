@@ -925,7 +925,8 @@ NewTV,#genre#
 浙江松阳,http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
 iHOT,#genre#
 电影,#genre#
-AMC电影台,http://61.221.215.25:8800/hls/43/index.m3u8自定义-斗鱼,#genre#
+AMC电影台,http://61.221.215.25:8800/hls/43/index.m3u8
+自定义-斗鱼,#genre#
 斗鱼0,http://159.75.85.63:35455/douyu/747764
 斗鱼1,http://159.75.85.63:35455/douyu/6906628
 斗鱼2,http://159.75.85.63:35455/douyu/8009547
