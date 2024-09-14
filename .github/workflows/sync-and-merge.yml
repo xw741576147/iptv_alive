@@ -1,5 +1,4 @@
 name: Sync Fork and Merge Custom Content
-
 on:
   schedule:
     # 每天UTC时间21:00运行，这相当于北京时间凌晨5:00 (UTC+8)
@@ -55,17 +54,22 @@ jobs:
 
     - name: Merge live.txt and live_custom.txt
       run: |
-        if [ -f live.txt ] && [ -f live_custom.txt ]; then
-          # 将live.txt的内容复制到live_all.txt
-          cat live.txt > live_all.txt
-          
-          # 将live_custom.txt中不在live.txt中的行追加到live_all.txt
-          grep -vxFf live.txt live_custom.txt >> live_all.txt
-        elif [ -f live.txt ]; then
-          cp live.txt live_all.txt
-        elif [ -f live_custom.txt ]; then
-          cp live_custom.txt live_all.txt
-        else
+        # Initialize live_all.txt
+        : > live_all.txt
+        
+        # Add content from live.txt if it exists
+        if [ -f live.txt ]; then
+          cat live.txt >> live_all.txt
+          echo "" >> live_all.txt  # Add an empty line
+        fi
+        
+        # Add content from live_custom.txt if it exists
+        if [ -f live_custom.txt ]; then
+          cat live_custom.txt >> live_all.txt
+        fi
+        
+        # Check if either file was added
+        if [ ! -s live_all.txt ]; then
           echo "Neither live.txt nor live_custom.txt found."
           exit 1
         fi
