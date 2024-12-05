@@ -56,8 +56,15 @@ MV,http://allinone.netsite.cc/douyu/10308225
 斗鱼舞蹈1,http://allinone.netsite.cc/douyu/6999879
 斗鱼舞蹈2,http://allinone.netsite.cc/douyu/5551871
 自定义-抖音,#genre#
-抖音1万万,http://allinone.netsite.cc/douyin/91022741723
-抖音2小冷,http://allinone.netsite.cc/douyin/839515074378
+抖音-万万,http://allinone.netsite.cc/douyin/91022741723
+抖音-小冷,http://allinone.netsite.cc/douyin/839515074378
+抖音-你的兔妹妹,http://allinone.netsite.cc/douyin/39532690785
+抖音-小圆老师,http://allinone.netsite.cc/douyin/19789880514
+抖音-姐姐呦,http://allinone.netsite.cc/douyin/37134183731
+抖音-釉子妹妹,http://allinone.netsite.cc/douyin/997848427864
+抖音-一棵草莓,http://allinone.netsite.cc/douyin/721973318924
+抖音-24K小金条,http://allinone.netsite.cc/douyin/793587271917
+抖音-小九九peri,http://allinone.netsite.cc/douyin/999700619726
 自定义-虎牙,#genre#
 虎牙1,http://allinone.netsite.cc/huya/11342412
 虎牙2,http://allinone.netsite.cc/huya/396738
