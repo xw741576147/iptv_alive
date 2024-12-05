@@ -42,8 +42,8 @@
 漫威,http://allinone.netsite.cc/douyu/11673725
 漫威2,http://allinone.netsite.cc/douyu/6140589
 漫威3,http://allinone.netsite.cc/douyu/12098568
-宇宙星河,http://allinone.netsite.cc/douyu/8814650
-霍格沃兹,http://allinone.netsite.cc/douyu/9412981
+霍格沃兹,http://allinone.netsite.cc/douyu/8814650
+宇宙星河,http://allinone.netsite.cc/douyu/9412981
 金庸武侠,http://allinone.netsite.cc/douyu/12128227
 TVB电视,http://allinone.netsite.cc/douyu/4373285
 短剧,http://allinone.netsite.cc/douyu/11824307
